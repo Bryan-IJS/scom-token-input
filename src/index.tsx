@@ -598,6 +598,7 @@ export default class ScomTokenInput extends Module {
       });
       this.btnMax.visible = this.isBtnMaxShown
     } else {
+      this.btnToken.icon = null;
       this.btnToken.caption = '$select_token'
       this.btnMax.visible = false
     }

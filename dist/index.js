@@ -838,6 +838,7 @@ define("@scom/scom-token-input", ["require", "exports", "@ijstech/components", "
                 this.btnMax.visible = this.isBtnMaxShown;
             }
             else {
+                this.btnToken.icon = null;
                 this.btnToken.caption = '$select_token';
                 this.btnMax.visible = false;
             }
